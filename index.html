@@ -11,23 +11,30 @@
             rel="stylesheet">
     </head>
     <body>
-        <div id="title">
-            <h1>Tic Tac Toe</h1>
-        </div>
-        <div id="board">
-            <div class="square" id="square0"></div>
-            <div class="square" id="square1"></div>
-            <div class="square" id="square2"></div>
-            <div class="square" id="square3"></div>
-            <div class="square" id="square4"></div>
-            <div class="square" id="square5"></div>
-            <div class="square" id="square6"></div>
-            <div class="square" id="square7"></div>
-            <div class="square" id="square8"></div>
-        </div>
-        <div id="endGame">
-            <input type="button" value="Restart" id="restartButton"
-                onclick="restartButton()" />
+        <div
+            style="display: flex;flex-wrap: wrap;flex-direction: column;justify-content: center;align-items: center;">
+            <div id="title">
+                <h1>Tic Tac Toe</h1>
+            </div>
+            <div id="board">
+                <div class="square" id="square0"></div>
+                <div class="square" id="square1"></div>
+                <div class="square" id="square2"></div>
+                <div class="square" id="square3"></div>
+                <div class="square" id="square4"></div>
+                <div class="square" id="square5"></div>
+                <div class="square" id="square6"></div>
+                <div class="square" id="square7"></div>
+                <div class="square" id="square8"></div>
+            </div>
+            <div id="message">X's turn!</div>
+            <div id="scoreboard">
+                X: <span id="score-x">0</span> | O: <span id="score-o">0</span>
+            </div>
+            <div id="endGame">
+
+                <button onclick="resetGame()">Reset Game</button>
+            </div>
         </div>
         <script src="./script.js"></script>
     </body>

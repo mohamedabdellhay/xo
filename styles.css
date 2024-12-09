@@ -1,5 +1,5 @@
 body {  
-    font-family: 'Poppins', sans-serif;
+    font-family: 'arial';
     color: #000000;
 }
 
@@ -29,7 +29,13 @@ h1 {
 }
 
 .square:hover {
-    background-color: #FFFFE0;
+    background-color: #cceba4;
+}
+.green:hover{
+    background-color: #cceba4;
+}
+.red:hover{
+    background-color: #ff8584;
 }
 
 #restartButton {
@@ -51,4 +57,15 @@ h1 {
 
 #endGame{
     margin: 20px 0;
+}
+
+
+button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+    background: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
 }
