@@ -15,11 +15,10 @@ This is a simple implementation of the classic Tic-Tac-Toe (XO) game, built usin
 To run this game on your local machine, follow the steps below:
 
 1. Clone this repository to your local machine:
+
    ```bash
    git clone https://github.com/your-username/tic-tac-toe.git
    ```
-
-````
 
 2. Open the `index.html` file in your browser to play the game.
 
@@ -56,4 +55,3 @@ This project was created by **[Mohamed Abdellhay]**.
 
 This README gives an overview of the game, installation steps, and usage instructions, and provides structure to make your repository clearer to anyone browsing it. You can further customize or expand the file with additional details like screenshots or advanced features if applicable.
 ```
-````
