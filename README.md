@@ -1,6 +1,3 @@
-Here's a simple README file for an XO (Tic-Tac-Toe) game built with JavaScript:
-
-````markdown
 # XO Game (Tic-Tac-Toe) - JavaScript
 
 This is a simple implementation of the classic Tic-Tac-Toe (XO) game, built using HTML, CSS, and JavaScript. It allows two players to play the game on a 3x3 grid.
@@ -21,6 +18,7 @@ To run this game on your local machine, follow the steps below:
    ```bash
    git clone https://github.com/your-username/tic-tac-toe.git
    ```
+
 ````
 
 2. Open the `index.html` file in your browser to play the game.
@@ -58,3 +56,4 @@ This project was created by **[Mohamed Abdellhay]**.
 
 This README gives an overview of the game, installation steps, and usage instructions, and provides structure to make your repository clearer to anyone browsing it. You can further customize or expand the file with additional details like screenshots or advanced features if applicable.
 ```
+````
