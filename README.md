@@ -50,5 +50,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Credits
 
 This project was created by **Mohamed Abdellhay**.
-
-This README gives an overview of the game, installation steps, and usage instructions, and provides structure to make your repository clearer to anyone browsing it. You can further customize or expand the file with additional details like screenshots or advanced features if applicable.
